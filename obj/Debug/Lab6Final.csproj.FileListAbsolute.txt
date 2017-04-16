@@ -1,0 +1,6 @@
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\bin\Debug\Lab6Final.exe.config
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\bin\Debug\Lab6Final.exe
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\bin\Debug\Lab6Final.pdb
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\obj\Debug\Lab6Final.csprojResolveAssemblyReference.cache
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\obj\Debug\Lab6Final.exe
+c:\users\perk\documents\visual studio 2015\Projects\Lab6Final\Lab6Final\obj\Debug\Lab6Final.pdb
