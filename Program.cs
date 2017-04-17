@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Code by Dennis Perkins
+// Coded April 14-17, 2017
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +20,7 @@ namespace Lab6Final
             string sentence, pigLatinSentence = "";
             string[] words;
 
-            while (play)
+            do
             {
                 pigLatinSentence = "";
                 sentence = "";
@@ -48,7 +52,7 @@ namespace Lab6Final
                     }
                     else
                     {
-                        // figure ut where the first vowel is
+                        // figure out where the first vowel is
                         int firstVowel = word.IndexOfAny(vowels) > -1 ? word.IndexOfAny(vowels) : word.Length - 1;
 
                         // move the beginning to the first string to the back and add "ay"
@@ -61,12 +65,24 @@ namespace Lab6Final
                 }
                 Console.WriteLine("Your sentence is:  {0}", pigLatinSentence);
 
-                Console.Write("Play again? y/n\t");
-                play = Console.ReadLine()[0] == 'y';
-            }
+                
+            } while (Play());
 
             Console.Write("\nBye...(Press Enter to exit)");
             Console.ReadLine();
+        }
+
+        public static bool Play()
+        {
+            Console.Write("Play again? y/n\t");
+            if (Console.ReadLine()[0] == 'y')
+            {
+                return true;
+            }   
+            else
+            {
+                return false;
+            }
         }
     }
 }
